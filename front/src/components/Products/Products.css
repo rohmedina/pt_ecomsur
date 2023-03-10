@@ -1,0 +1,88 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.productCardContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.card{
+  margin: 40px;
+  max-width: 200px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+  /* align-items: center; */
+  overflow: hidden;
+  border-radius: 12px;
+}
+.card img{
+     /* display: flex; */
+    /* margin: auto; */
+    height: 170px;
+    object-fit: cover;
+    transition: all .3s ease-in-out;
+}
+
+.cardData{
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+height: 220px;
+
+}
+
+.cardBrand{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.cardName{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.cardPrice{
+  font-size: 14px;
+  font-weight: 600;
+  color: #f9ac05 ;
+}
+
+.cardRatio{
+   font-size: 12px;
+  font-weight: 400;
+}
+
+.cardButton{
+  border: 1px solid #0b3ffa;
+  outline: 0;
+  padding: 10px;
+  color: #fff;
+  background-color: #0b3ffa;
+  text-align: center;
+  cursor: pointer;
+  width: 180px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 18px;
+}
+
+.cardButton:hover{
+  background-color: #fff;
+  color: #0b3ffa;
+}
+
+/* button.cardButton:disabled{
+   cursor: not-allowed;
+        background-color: rgb(229, 229, 229) !important;
+        pointer-events:none;
+        border: none;
+} */

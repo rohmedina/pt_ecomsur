@@ -1,0 +1,30 @@
+.banner{
+  background-color: #fff;
+  background-position: center;
+  height: 60vh;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("https://www.seekpng.com/png/detail/12-123919_e-business-png-image-background-e-commerce-y.png");
+}
+
+.bannerContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+}
+
+.banner h1{
+  margin: 0;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.banner p{
+  margin: 0;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-size: 30px;
+  font-weight: 400;
+}
